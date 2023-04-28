@@ -1,0 +1,226 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: black;
+}
+div{
+    background-color: rgb(255, 2, 255);
+    height: 100px;
+}
+#seleções{
+    background-color: inherit;
+}
+.nomes-seleções{
+    display: block;
+}
+@media screen and (min-width: 320px){
+    #questão-1{
+        background-color: black;
+    }
+}
+@media screen and (min-width: 480px){
+    #questão-1{
+        background-color: #00e1ff;
+    }
+}
+@media screen and (min-width: 600px){
+    #questão-1{
+        background-color: #00ff80;
+    }
+}
+@media screen and (min-width: 768px){
+    #questão-1{
+        background-color: #fbff00;
+    }
+}
+@media screen and (min-width: 800px){
+    #questão-1{
+        background-color: #964b00;
+    }
+}
+@media screen and (min-width: 1024px){
+    #questão-1{
+        background-color: #000296;
+    }
+}
+@media screen and (min-width: 1280px){
+    #questão-1{
+        background-color: #014401;
+    }
+}
+@media screen and (min-width: 1440px){
+    #questão-1{
+        background-color: #830b0b;
+    }
+}
+@media screen and (orientation: portrait) {
+    #questão-2{
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    .verde{
+        background-color: green;
+    }
+    .azul{
+        display: none;
+    }
+    .roxo{
+        display: none;
+    }
+    .verde2{
+        display: none;
+    }
+    .azul2{
+        display: none;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .azul{
+        background-color: blue;
+    }
+    .verde{
+        background-color: green;
+    }
+    .verde2{
+        display: none;
+    }
+    .azul2{
+        display: none;
+    }
+    .roxo{
+        display: none;
+    }
+}
+@media screen and (max-width: 3840px) {
+    .azul{
+        background-color: blue;
+    }
+    .verde{
+        background-color: green;
+    }
+    .azul2{
+        background-color: blue;
+    }
+    .verde2{
+        background-color: green;
+    }
+    .roxo{
+        background-color: purple;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    img{
+        display: none;
+        width: 200px;
+    }
+    .nomes-seleções{
+        height: auto;
+        width: 200px;
+        font-size: 15px;
+    }
+    #seleções{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #questão-4{
+        background-color: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    p{
+        width: 200px;
+        height: auto;
+    }
+    #texto{
+        background-color: inherit;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 1440px) {
+    img{
+        display: none;
+    }
+    .nomes-seleções{
+        height: auto;
+        width: 200px;
+    }
+    #seleções{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    #questão-4{
+        height: auto;
+        background-color: inherit;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #texto{
+        height: 100%;
+        background-color: inherit;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    p{
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width: 3840px) {
+    img{
+        display: flex;
+        height: auto;
+        width: 700px;
+    }
+    .nomes-seleções{
+        height: auto;
+        width: 900px;
+        font-size: 65px;
+    }
+    #questão-4{
+        height: auto;
+        background-color: inherit;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #seleções{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 40px;
+    }
+    #texto{
+        height: 100%;
+        background-color: inherit;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        font-size: 65px;
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    p{
+        width: 1700px;
+        height: auto;
+    }
+}
